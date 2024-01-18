@@ -1,0 +1,30 @@
+
+.counter{
+    height:50vh;
+    display:flex;
+  align-items: center;
+  gap: 30px;
+  background-color: tan;
+  flex-direction: column;
+  justify-content: center;
+  }
+  button{
+    width:100px;
+    font-size: 40px;
+    color:red;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 0.5px solid black;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+  }
+  p{
+    font-size: 40px;
+  }
+  .button-group{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+  }
